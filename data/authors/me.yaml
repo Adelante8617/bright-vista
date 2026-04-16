@@ -5,13 +5,9 @@ name:
   display: Baiyu HUANG
 status:
   icon: "☕️"
-role: Director of Cloud Infrastructure
+role: AI4Math Researcher
 bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind optimization.
-affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  I am currently studying at HKUST(GZ) in LARK Lab. My research focuses on the intersection of artificial intelligence and mathematics. I am passionate about exploring how AI can enhance our understanding of mathematical concepts and contribute to advancements in various scientific fields.
 links:
   - icon: at-symbol
     url: mailto:your-email@example.com
@@ -26,32 +22,19 @@ links:
     url: https://www.instagram.com/
 education:
   - degree: MPhil in Artificial Intelligence
-    institution: HKUST(GZ)
-    start: 2016-01-01
-    end: 2020-12-31
+    institution: HKUST(GZ), Information Hub, Data Science and Analytics Thrust
+    start: 2025-09-01
+    end: 2027-06-30
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      On going.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
+      url: 'https://openreview.net/'
+  - degree: BSc in Data Science and Big Data Technology
+    institution: Peking University, School of Mathematical Sciences
+    start: 2021-09-01
+    end: 2025-06-30
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -78,27 +61,31 @@ skills:
   - name: Technical Skills
     items:
       - label: Python
-        level: 4
-      - label: RStudio
         level: 5
-      - label: PyTorch
-        level: 2
+      - label: Lean4
+        level: 5
+      - label: LaTeX
+        level: 5
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - label: Hiking
-        level: 3
-      - label: Cats
+      - label: Baseball/Softball
         level: 5
-      - label: Photography
+      - label: Chess
+        level: 4
+      - label: Cycling
         level: 4
 languages:
   - name: English
-    level: 5
-  - name: Chinese
     level: 4
-  - name: Portuguese
+  - name: Chinese
+    level: 5
+  - name: Cantonese
+    level: 5
+  - name: Japanese
+    level: 2
+  - name: French
     level: 1
 awards:
   - title: Neural Networks and Deep Learning
