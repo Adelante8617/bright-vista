@@ -13,8 +13,6 @@ links:
   - icon: at-symbol
     url: mailto:bhuang080@connect.hkust-gz.edu.cn
     label: E-mail Me
-  - icon: at-symbol
-    url: mailto:1227685487@qq.com
   - icon: brands/github
     url: https://github.com/Adelante8617
   - icon: brands/linkedin
@@ -34,10 +32,14 @@ education:
     start: 2021-09-01
     end: 2025-06-30
     summary: |
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      pku sms
+publications:
+  - title: 'FormalRx: Under review'
+    url: https://arxiv.org/abs/1234.5678
+    date: '2024-05-01'
+    publisher: arXiv
+    summary: |
+      This paper presents a novel approach to leveraging artificial intelligence for mathematical research. We propose a framework that integrates machine learning techniques with traditional mathematical methods to enhance problem-solving capabilities and accelerate discoveries in various mathematical domains.
 experience:
   - role: Workshop Contributor
     org: ICML 2026 AI4Math Workshop

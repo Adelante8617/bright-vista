@@ -30,9 +30,12 @@ sections:
         style: 'text-align: justify; font-size: 0.8em;'
       # Avatar customization
       avatar:
-        show: false
         size: large # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: rounded # Options: circle (default), square, rounded
+  - block: publications
+    content:
+      title: Publications
+      username: me
   - block: experience
     content:
       username: me
@@ -40,7 +43,7 @@ sections:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
-      is_education_first: false
+      is_education_first: true
   - block: skills
     content:
       title: Skills & Hobbies
