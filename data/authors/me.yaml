@@ -33,13 +33,6 @@ education:
     end: 2025-06-30
     summary: |
       pku sms
-publications:
-  - title: 'FormalRx: Under review'
-    url: https://arxiv.org/abs/1234.5678
-    date: '2024-05-01'
-    publisher: arXiv
-    summary: |
-      This paper presents a novel approach to leveraging artificial intelligence for mathematical research. We propose a framework that integrates machine learning techniques with traditional mathematical methods to enhance problem-solving capabilities and accelerate discoveries in various mathematical domains.
 experience:
   - role: Workshop Contributor
     org: ICML 2026 AI4Math Workshop
