@@ -82,10 +82,6 @@ languages:
     level: 5
   - name: Cantonese
     level: 5
-  - name: Japanese
-    level: 2
-  - name: French
-    level: 1
 awards:
   - title: Neural Networks and Deep Learning
     url: https://www.coursera.org/learn/neural-networks-deep-learning
