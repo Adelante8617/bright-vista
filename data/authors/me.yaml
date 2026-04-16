@@ -1,6 +1,7 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+avatar: false
 name:
   display: Baiyu HUANG
 status:
@@ -10,16 +11,14 @@ bio: >
   I am currently studying at HKUST(GZ) in LARK Lab. My research focuses on the intersection of artificial intelligence and mathematics. I am passionate about exploring how AI can enhance our understanding of mathematical concepts and contribute to advancements in various scientific fields.
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:bhuang080@connect.hkust-gz.edu.cn
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/MakeOwnable
+  - icon: at-symbol
+    url: mailto:1227685487@qq.com
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/Adelante8617
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/baiyu-huang-1302043ab/
 education:
   - degree: MPhil in Artificial Intelligence
     institution: HKUST(GZ), Information Hub, Data Science and Analytics Thrust
@@ -40,8 +39,8 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
+  - role: Workshop Contributor
+    org: ICML 2026 AI4Math Workshop
     start: 2021-01-01
     summary: |
       Responsibilities include:
