@@ -1,0 +1,23 @@
+{{/* Custom Publications block for Hugo Blox */}}
+<section class="hb-publications-block">
+  <div class="hb-publications-header">
+    <h2>{{ with .Params.title }}{{ . }}{{ else }}Publications{{ end }}</h2>
+  </div>
+  {{ $author := index .Site.Data.authors "me" }}
+  {{ with $author.publications }}
+    <ul class="hb-publications-list">
+      {{ range . }}
+        <li class="hb-publication-item">
+          <div class="hb-publication-title">
+            {{ with .url }}<a href="{{ . }}" target="_blank" rel="noreferrer">{{ end }}{{ .title }}{{ with .url }}</a>{{ end }}
+          </div>
+          {{ with .publisher }}<div class="hb-publication-meta">{{ . }}</div>{{ end }}
+          {{ with .date }}<div class="hb-publication-date">{{ . }}</div>{{ end }}
+          {{ with .summary }}<p class="hb-publication-summary">{{ . }}</p>{{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    <p>No publications available.</p>
+  {{ end }}
+</section>
